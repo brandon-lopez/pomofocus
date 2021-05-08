@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 2.5em auto 3.5em;
+    margin: 2.5em auto;
 
 }
 
@@ -102,10 +102,11 @@ nav ul li a {
 }
 
 .hero-container p {
-    padding: 12px 0px 32px 0px;
+    margin: .75em auto;
+    width: 105%;
     color: #E9E9E9;
     font-size: 1.6em;
-    line-height: 34px; /**combeacktothis*/
+    line-height: 1.5em; /**combeacktothis*/
     font-weight: 400;
 }
 
