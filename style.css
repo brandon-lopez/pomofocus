@@ -187,7 +187,7 @@ a.second {
 .benefits-image{
     display: block;
     max-width: calc(50% - 2em);
-    margin: 0 auto;
+    margin-left: 2em;
 }
 
 .benefits-container{
@@ -202,20 +202,20 @@ a.second {
 }
 
 .card {
+    height: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3.75em 1.5em;
+    padding: 2em 1em;
     border-radius: 5%;
     margin: 0 auto;
-    max-width: 85%;
 }
 
 .card h3 {
     display: inline-block;
     font-size: 1.4em;
     margin-bottom: 1em;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
 }
 
 .card p {
@@ -240,4 +240,7 @@ a.second {
 .benefit-2 p{
     color: #004A55;
 }
- 
+.benefits-container .test{
+    background-color: #004A55;
+    border-radius: 10%
+}
