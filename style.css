@@ -1,5 +1,247 @@
-p{
-   font-weight: bold;
-    color:  red;
-    background-color: green;
-};
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    min-height: 100%;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #004A55;
+    max-width: 100vw;
+}
+
+.center{
+    position: relative;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+/* Header/Navigation */
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2.5em auto 3.5em;
+
+}
+
+.navigation .logo {
+    text-decoration: none;
+    color: #C2F5FF;
+    margin: 0 7em 0 auto;
+    font-size: 2.15em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #C2F5FF;
+    border-radius: 100px;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+nav ul li a {
+    display: inline-block;
+    color: #007EA2;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: .19em 1.7em;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    padding-bottom: 10em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.hero-container{
+    max-width: 50%;
+}
+
+.image-container{
+    max-width: 50%;
+}
+
+.main-text{
+    color: #C2F5FF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+.hero-container p {
+    padding: 12px 0px 32px 0px;
+    color: #E9E9E9;
+    font-size: 1.6em;
+    line-height: 34px; /**combeacktothis*/
+    font-weight: 400;
+}
+
+.hero-image{
+    max-width: 100%;
+}
+
+/* Hero >>>>> Buttons */
+
+
+.hero-container .buttons{
+    display: flex;
+    max-width: 100%;
+}
+
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 2em;
+    border: .2em solid #F28DFD;
+    padding: .5rem 2.3em;
+}
+
+a.cta{
+    font-weight: 700;
+    color: #FFF;
+    background: #F28DFD;
+    margin-right: 1em;
+}
+
+a.second {
+    color: #C2F5FF;
+    font-weight: 300;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+/* test */
+#home {
+    background-color: #007EA2;
+    border-radius: 100px;
+    color: #C2F5FF;
+}
+
+/* Benefits */
+.benefits {
+    position: relative;
+    background-color: #EFFDFF;
+    padding-bottom: 10em;
+}
+
+.benefits header{
+    position: relative;
+    padding: 4.5em 0;
+}
+
+.benefits header h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #004A55;
+    color: #C2F5FF;
+    font-size: 3em;
+    font-weight: normal;
+    padding: .2em 0;
+    letter-spacing: .11em;
+}
+
+.benefits .content{
+    display: flex; 
+    margin: 3em auto 0;
+}
+
+.benefits-container{
+    max-width: 55%
+}
+
+.benefits-image{
+    display: block;
+    max-width: calc(50% - 2em);
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template:
+    '. .'
+    '. .';
+    grid-gap: 1em;
+}
+
+.off-color{
+    background-color: #004A55;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.75em 1.5em;
+    border-radius: 5%;
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+.card h3 {
+    display: inline-block;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    letter-spacing: .1em;
+}
+
+.card p {
+    display: inline-block; 
+    line-height: 150%;
+    letter-spacing: normal;
+    font-weight: lighter;
+}
+
+.benefit-1 h3{
+    color: #C2F5FF;
+}
+
+.benefit-1 p{
+    color: #E9E9E9;
+}
+
+.benefit-2 h3{
+    color: #3EA9BE;
+}
+
+.benefit-2 p{
+    color: #004A55;
+}
+ 
