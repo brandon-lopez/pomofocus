@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 2.5em auto;
+    margin: 2em auto;
 
 }
 
@@ -106,7 +106,7 @@ nav ul li a {
     width: 105%;
     color: #E9E9E9;
     font-size: 1.6em;
-    line-height: 1.5em; /**combeacktothis*/
+    line-height: 1.3em; /**combeacktothis*/
     font-weight: 400;
 }
 
@@ -184,22 +184,17 @@ a.second {
     margin: 3em auto 0;
 }
 
-.benefits-container{
-    max-width: 55%
-}
-
 .benefits-image{
     display: block;
     max-width: calc(50% - 2em);
     margin: 0 auto;
 }
 
-.grid{
+.benefits-container{
     display: grid;
-    grid-template:
-    '. .'
-    '. .';
+    grid-template-columns: auto auto;
     grid-gap: 1em;
+    max-width: 55%
 }
 
 .off-color{
