@@ -1,4 +1,4 @@
-# landing
+# Welcome! Read me!
 
 Hello, prospector and fellows alike,
 
