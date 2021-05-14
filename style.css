@@ -119,9 +119,12 @@ nav ul li a {
 
 .hero-container .buttons{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
+    width: 85%;
+    max-width: 550px;
+    letter-spacing: .1em;
 }
 
 .btn {
@@ -130,6 +133,8 @@ nav ul li a {
     border-radius: 2em;
     border: .2em solid #F28DFD;
     padding: .5rem 1.5em;
+    text-align: center;
+    margin: .5em 0;
 }
 
 a.cta{
