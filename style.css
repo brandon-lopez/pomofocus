@@ -125,14 +125,10 @@ nav ul li a {
 }
 
 .btn {
-    display: inline-block;
-    box-sizing: border-box;
-    font-family:'Roboto';
     font-size: 1.5em;
     text-decoration: none;
     border-radius: 2em;
     border: .2em solid #F28DFD;
-    margin: 0 1em 1em 0;
     padding: .5rem 1.5em;
 }
 
@@ -167,9 +163,7 @@ a.second {
 }
 
 .benefits header h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background: #004A55;
     color: #C2F5FF;
     font-size: 3em;
@@ -249,14 +243,12 @@ a.second {
 /********* How-To Section **********/
 
 .how-to header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #C2F5FF;
     margin: 3em 0;
 }
 
 .how-to header h2{
+    text-align: center;
+    color: #C2F5FF;
     font-size: 3em;
     font-weight: 500;
     letter-spacing: .1em;
