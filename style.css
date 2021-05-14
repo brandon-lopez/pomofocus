@@ -19,8 +19,15 @@ body {
 
 .center{
     position: relative;
-    max-width: 85%;
+    width: 85%;
+    max-width: 2000px;
     margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Header/Navigation */
@@ -76,17 +83,12 @@ nav ul li a {
 /* Hero */
 
 .hero {
-    padding-bottom: 10em;
-}
-
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 3em 0 10em;
 }
 
 .hero-container{
-    max-width: 50%;
+    max-width: 800px;
+    width: 50%;
 }
 
 .image-container{
@@ -103,10 +105,9 @@ nav ul li a {
 
 .hero-container p {
     margin: .75em auto;
-    width: 105%;
     color: #E9E9E9;
     font-size: 1.6em;
-    line-height: 1.3em; /**combeacktothis*/
+    line-height: 1.5em;
     font-weight: 400;
 }
 
@@ -114,15 +115,14 @@ nav ul li a {
     max-width: 100%;
 }
 
-/* Hero >>>>> Buttons */
-
+/******* Hero >>>>> Buttons ********/
 
 .hero-container .buttons{
     display: flex;
-    justify-content: start;;
-    max-width: 75%;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
 }
-
 
 .btn {
     display: inline-block;
@@ -132,21 +132,19 @@ nav ul li a {
     text-decoration: none;
     border-radius: 2em;
     border: .2em solid #F28DFD;
-    padding: .5rem 2.3em;
+    margin: 0 1em 1em 0;
+    padding: .5rem 1.5em;
 }
 
 a.cta{
     font-weight: 700;
     color: #FFF;
     background: #F28DFD;
-    margin-right: 1em;
 }
 
 a.second {
     color: #C2F5FF;
     font-weight: 300;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
 }
 
 /* test */
@@ -156,7 +154,7 @@ a.second {
     color: #C2F5FF;
 }
 
-/* Benefits */
+/************ Benefits ***********/
 .benefits {
     position: relative;
     background-color: #EFFDFF;
@@ -194,11 +192,11 @@ a.second {
 
 .benefits-container{
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 50%));
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     grid-gap: 1em;
-    max-width: 55%
+    max-width: 650px;
 }
 
 .off-color{
@@ -248,7 +246,8 @@ a.second {
     border-radius: 10%
 }
 
-/* How-To Section */
+/********* How-To Section **********/
+
 .how-to header {
     display: flex;
     justify-content: center;
@@ -266,23 +265,14 @@ a.second {
 .steps-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 100%
+    width: 100%;
 }
 
 .step{
-    width: 100%;
-    padding: 2em 0;
-    margin: 2em 0;
-}
-
-.steps-image-container{
     display: flex;
-    flex-direction: column;
-}
-
-.steps-image-container img{
-    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
     padding: 2em 0;
     margin: 2em 0;
 }
