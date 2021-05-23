@@ -342,11 +342,19 @@ a.second {
 }
 
 /*** Footer ***/
-.footer-container text{
-    display: inline-block;
-}
-
 .footer-container{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em 0;
 }
+
+.footer-text{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1em;
+    color: #EFFDFF;
+}
+
