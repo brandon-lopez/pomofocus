@@ -223,7 +223,7 @@ a.second {
     display: inline-block;
     font-weight: 500;
     font-size: 1.4em;
-    margin-bottom: 1em;
+    margin-bottom: .75em;
 }
 
 .card p {
