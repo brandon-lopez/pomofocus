@@ -180,7 +180,7 @@ a.second {
 
 .benefits header{
     position: relative;
-    padding: 4.5em 0;
+    padding: 4em 0;
 }
 
 .benefits header h2{
@@ -196,7 +196,6 @@ a.second {
 .benefits .content{
     display: flex;
     justify-content: space-around;
-    margin: 3em auto 0;
 }
 
 .benefits-container{
@@ -256,6 +255,24 @@ a.second {
 
 .benefits-image{
     width: 100%;
+}
+
+/*** Stripes ***/
+.stripes-break{
+    width: 100%;
+    position: absolute;
+}
+
+.stripes-break img{
+    width: 100%;
+}
+
+.on-top{
+    top: 2.5%;
+}
+
+.on-bot{
+    bottom: 2%
 }
 
 /********* How-To Section **********/
