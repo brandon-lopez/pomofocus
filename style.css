@@ -359,7 +359,7 @@ a.second {
 
 /*** Call-To-Action Section ****/
 .cta-section{
-    padding: 10em 0;
+    padding: 5em 0;
     background-color: #007EA2;
 }
 
@@ -368,8 +368,8 @@ a.second {
 }
 
 .cta-content h3{
-    font-size: 3em;
-    color: #D4F5FF;
+    font-size: 2.5em;
+    color: #EFFDFF;
     font-weight: 500;
     margin: 1rem 0;
 }
