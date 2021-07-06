@@ -45,6 +45,8 @@ body {
     margin: 0 auto;
     font-size: 2.15em;
     font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
 }
 
 nav {
@@ -78,7 +80,12 @@ nav ul li a {
     font-weight: 600;
     padding: .19em 1.7em;
 }
-
+nav ul li a:hover{
+    background-color: #007EA2;
+    color:#C2F5FF;
+    border-radius: 100px;
+    transition: background-color .25s linear, color .25s linear;
+}
 /* Hero */
 
 .hero {
@@ -271,7 +278,7 @@ a.second {
 }
 
 .on-top{
-    top: 1  .5%;
+    top: 1.5%;
 }
 
 .on-bot{
