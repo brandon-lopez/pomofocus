@@ -369,24 +369,34 @@ a.second {
 
 /*** Call-To-Action Section ****/
 .cta-section{
-    padding: 5em 0;
     background-color: #007EA2;
+    padding: 0 0 2em;
 }
 
 .cta-content{
     text-align: center;
+    padding: 0 0 2em;
 }
 
 .cta-content h3{
     font-size: 2.5em;
     color: #EFFDFF;
     font-weight: 500;
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 
 .cta-content .btn{
     font-size: 2.3em;
     margin: 1em 0;
+}
+
+/*** CTA Waves ***/
+.waves{
+    width: 100%;
+    display: block;
+}
+.waves img{
+    max-width: 100%
 }
 
 /*** Footer ***/
