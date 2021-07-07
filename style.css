@@ -287,7 +287,7 @@ a.second {
 
 /********* How-To Section **********/
 .how-to{
-    margin-bottom: 5em;
+    position: relative;
 }
 
 .how-to header {
@@ -369,13 +369,14 @@ a.second {
 
 /*** Call-To-Action Section ****/
 .cta-section{
+    position: relative;
+    margin-top: -3em;
     background-color: #007EA2;
-    padding: 0 0 2em;
 }
 
 .cta-content{
     text-align: center;
-    padding: 0 0 2em;
+    padding: 0 0 4em;
 }
 
 .cta-content h3{
@@ -391,9 +392,11 @@ a.second {
 }
 
 /*** CTA Waves ***/
+
 .waves{
     width: 100%;
     display: block;
+    position: relative; 
 }
 .waves img{
     max-width: 100%
