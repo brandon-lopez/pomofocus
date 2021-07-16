@@ -26,23 +26,26 @@ body {
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Header/Navigation */
 
 .navigation {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     padding: 2em 0;
 }
 
 .navigation .logo {
+    min-width: 200px;
     text-decoration: none;
     color: #C2F5FF;
-    margin: 0 auto;
+    margin: .5em 2em;
     font-size: 2.15em;
     font-weight: bold;
     cursor: pointer;
@@ -53,7 +56,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 2em;
     height: fit-content;
 }
 
@@ -95,7 +98,9 @@ nav ul li a:hover{
 
 .hero-container{
     max-width: 800px;
-    width: 55%;
+    flex: 1 1 500px;
+    margin-bottom: 2em;
+
 }
 
 .main-text{
@@ -116,11 +121,14 @@ nav ul li a:hover{
 }
 
 .image-container{
-    max-width: 45%;
+    align-self: center;
+    flex: 1 1 400px;
+    max-width: 700px;
+    margin: 1em .5em;
 }
 
 .hero-image{
-    max-width: 100%;
+    width: 100%;
 }
 
 /******* Hero >>>>> Buttons ********/
@@ -202,16 +210,20 @@ a.second {
 
 .benefits .content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .benefits-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(200px, 285px) minmax(200px, 285px);
     justify-content: center;
     align-items: center;
     grid-gap: 2em;
-    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    flex: 1 2 600px;
 }
 
 .off-color{
@@ -260,9 +272,9 @@ a.second {
 }
 
 .benefits-image-box{
-    width: 50%;
     align-self: center;
-    margin: 0 1em;
+    margin: 0 .5em;
+    flex: 5 1 425px;
 }
 
 .benefits-image{
