@@ -204,7 +204,7 @@ a.second {
     color: #C2F5FF;
     font-size: 4em;
     font-weight: normal;
-    padding: .2em 0;
+    padding: .2em .5em;
     letter-spacing: .11em;
 }
 
@@ -219,7 +219,6 @@ a.second {
     display: grid;
     grid-template-columns: minmax(200px, 285px) minmax(200px, 285px);
     justify-content: center;
-    align-items: center;
     grid-gap: 2em;
     margin: 0 auto;
     margin-bottom: 3em;
