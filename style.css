@@ -311,7 +311,7 @@ a.second {
 /*** Stripes ***/
 .stripes-break{
     width: 100%;
-    background-image: url(/images/Stripes.svg);
+    background-image: url(images/Stripes.svg);
     height: 37px;
     background-repeat: repeat-x;
     position: absolute;
