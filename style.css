@@ -237,8 +237,8 @@ a.second {
 }
 
 .card-box{
-    display:flex;
-    flex-wrap: wrap;
+    display: flex;
+    padding: 1rem;
 }
 
 .card {
