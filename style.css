@@ -241,8 +241,6 @@ a.second {
 
 .card {
     display: flex;
-    min-width:250px;
-    width: 300px;
     flex-direction: column;
     padding: 3em 1.5em;
     border-radius: 15px;
