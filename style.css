@@ -343,10 +343,10 @@ a.second {
 
 .how-to header h2{
     text-align: center;
-    color: #C2F5FF;
-    font-size: 3em;
+    color: #EFFDFF;
+    font-size: 3.5em;
     font-weight: 500;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
     padding: .1em .5em;
 }
 
