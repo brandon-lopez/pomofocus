@@ -236,14 +236,24 @@ a.second {
     border: solid #052c31;
 }
 
+.card-box{
+    display:flex;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
 .card {
     display: flex;
-    max-width: 300px;
+    min-width:250px;
+    width: 300px;
     flex-direction: column;
-    justify-content: center;
     padding: 3em 1.5em;
     border-radius: 10%;
     text-align: center;
+    border: solid #052c31;
+    align-items: center;
 }
 
 .card h3 {
